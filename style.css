@@ -1,0 +1,354 @@
+*{
+    /*border: 2px dotted black;*/
+    margin: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Anton', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+    background: url(tlo3.png);
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgba(245, 245, 245, 0.575);
+}
+
+#menu{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    background: url(tlo3.png);
+    width: 170px;
+    height: 150px;
+    border-radius: 30% 0 0 30%;
+    opacity: 0.7;
+    
+}
+
+#start#menu{
+    visibility: hidden;
+}
+
+#container{
+    align-items: flex-start;
+    /*flex-wrap: wrap;*/
+    background-color: rgba(83, 85, 87, 0.952);
+    width: 100%;
+    height: 2980px;
+    margin: 0;
+    
+}
+
+#start{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center
+    background-color: rgb(80, 78, 78);
+
+}
+
+.start1{
+    height: 80px;
+    width: 100%;
+    background: url(logo.png) repeat;
+}
+.start2{
+    height: 120px;
+    width: 100%;
+    background: url(logo.png) repeat;
+    opacity: 0.50;
+}
+.start3{
+    height: 120px;
+    width: 100%;
+    background: url(logo.png) repeat;
+    opacity: 0.30;
+}
+.start4{
+    height: 120px;
+    width: 100%;
+    background: url(logo.png) repeat;
+    opacity: 0.10;
+}
+
+
+#header{
+    background: url(tlo3.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    font-family: arial;
+    transform: uppercase;
+    font-size: 30px;
+    color: white;
+
+    
+}
+
+
+
+#home{
+    width: 100%;
+    height: 600px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    /*background-color: red;*/
+}
+
+#aboutme{
+    /*background: url(tak.jpg) no-repeat center/ cover;*/
+    width: 100%;
+    height: 600px;
+    
+    text-align: center;
+       
+} 
+
+.pierwszy{
+    font-size: 30px;
+    padding: 0px 50px;
+    
+}
+
+#portfolio{
+    display: flex;
+    padding: 5px;
+    /*margin: 0 40px;*/
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    align-content: center;
+}
+
+.portfolio{
+    display: inline-block;
+    width: 360px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.photo{
+    border-radius: 10%;
+}
+
+.photo:hover{
+    transform: scale(1.4);
+    transition: transform 1s ease-in-out;
+}
+
+.photo.
+
+#contact{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+}
+
+.contact{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+.media{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    box-sizing: border-box;
+    flex-direction: column;
+    
+}
+
+.fa-facebook-square{
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+
+}
+#fb{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(20, 87, 233);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.fa-instagram{
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+}
+#ig{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(189, 49, 218);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.fa-github{
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+}
+#gh{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.fa-internet-explorer{
+    color: white;
+    font-size: 50px;
+    opacity: 0.5;
+}
+#www{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(51, 182, 18);
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.foot{
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+}
+
+#footer{
+    background: url(tlo3.png);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+form, input, select, textarea {
+    margin:0; 
+    padding:0; 
+    color:#ffffff;
+}
+
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:#222222;
+    justify-self: flex-end;
+    top:50px;
+    border:1px solid #262626;
+}
+
+div.box h2 { 
+    color:#ffffff;
+    font-size:18px;
+    text-transform:uppercase;
+    padding:5px 0 5px 5px;
+    border-bottom:1px solid #161712;
+    border-top:1px solid #161712; 
+}
+
+div.box label {
+    width:100%;
+    display: block;
+    background:#1C1C1C;
+    border-top:1px solid #262626;
+    border-bottom:1px solid #161712;
+    padding:10px 0 10px 0;
+}
+
+div.box label span {
+    display: block;
+    color:#bbbbbb;
+    font-size:12px;
+    float:left;
+    width:100px;
+    text-align:right;
+    padding:5px 20px 0 0;
+}
+
+div.box .wpis {
+    padding:10px 10px;
+    width:200px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+}
+
+div.box .wiadomosc {
+    padding:7px 7px;
+    width:350px;
+    background:#262626;
+    border-bottom: 1px double #171717;
+    border-top: 1px double #171717;
+    border-left:1px double #333333;
+    border-right:1px double #333333;
+    overflow:hidden;
+    height:150px;
+}
+
+div.box .button	{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:#CC0000;
+    border:0px;
+    position: relative;
+    top:10px;
+    left:382px;
+    width:100px;
+    border-bottom: 1px double #660000;
+    border-top: 1px double #660000;
+    border-left:1px double #FF0033;
+    border-right:1px double #FF0033;
+}
